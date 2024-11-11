@@ -23,10 +23,18 @@ Checks if the current move creates four consecutive pieces horizontally, vertica
 - Game Board Setup:
 A 6x7 board is created, initialized with zeros to represent empty cells.
 
-- On clicking the "Generate" button, the text is sent to the EdenAI API, which generates an image.
+- Player Turn:
+Each player is prompted to choose a column to place their piece.
+If the column is valid and not full, the piece is added to the lowest available row in that column.
+The game displays the board after each move.
+
+- Win and Draw Conditions:
+After each move, the game checks for four consecutive pieces for a potential win.
+If no winning move is detected and the board is full, the game ends in a draw.
 
 - The image is then displayed within the application's window.
 
-# API Setup
+# End of Game:
+The game announces the winner or a draw and exits.
 
 To use this project, you need an API key from EdenAI to access their image generation services. You can set your API key in the get_image_url() function's header section.
