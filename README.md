@@ -1,5 +1,5 @@
 # 01. Connect Four Game
-## <a href="https://github.com/boriskostadinov96/Games/blob/main/connect_four_game.py">Link to gane</a>
+## <a href="https://github.com/boriskostadinov96/Games/blob/main/connect_four_game.py">Link to game</a>
 
 ## Overview:
 This Connect Four Game is a terminal-based application that lets two players compete in a classic Connect Four game on a 6x7 grid. The objective of the game is for a player to get four consecutive pieces in a row, column, or diagonal. The game enforces turn-taking, checks for valid moves, and detects winning conditions. It’s built entirely in Python, focusing on essential game logic and user input validation.
